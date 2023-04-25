@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  height: 1324px;
+  /* height: 1324px; */
   margin: 0 0 40px 50px;
   /* margin-left: 40px; */
   background-color: black;
