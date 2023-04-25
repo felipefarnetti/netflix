@@ -3,12 +3,12 @@
 body {
   font-family: Roboto, sans-serif;
   color: white;
+  background-color: black;
   font-size: 22px;
 }
 
 .container {
   width: 1905px;
-  height: 900px;
   margin: 0 auto;
   background-color: black;
 }
@@ -18,4 +18,9 @@ header {
 }
 header img {
   width: 100px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
