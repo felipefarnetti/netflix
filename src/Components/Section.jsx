@@ -5,7 +5,12 @@ const Section = () => {
   return (
     <main>
       {data.map((movies) => {
-        return <Movies category={movies.category} images={movies.images} />;
+        return (
+          <>
+            <h2>{movies.category}</h2>
+            <Movies key={movies.category} images={movies.images} />
+          </>
+        );
       })}
     </main>
   );

@@ -1,11 +1,10 @@
-const Movies = ({ category, images }) => {
+const Movies = (props) => {
   return (
-    <section>
-      <h1>{category}</h1>
-      <ul>
-        <li>{images}</li>
-      </ul>
-    </section>
+    <>
+      {props.images.map((elem) => {
+        return <img src={elem} alt="" />;
+      })}
+    </>
   );
 };
 
