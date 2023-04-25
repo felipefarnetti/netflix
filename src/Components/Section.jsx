@@ -8,7 +8,9 @@ const Section = () => {
         return (
           <>
             <h2>{movies.category}</h2>
-            <Movies key={movies.category} images={movies.images} />
+            <div className="caroussel">
+              <Movies key={movies.category} images={movies.images} />
+            </div>
           </>
         );
       })}
