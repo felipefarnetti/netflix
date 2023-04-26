@@ -30,6 +30,8 @@ h2 {
   display: flex;
   overflow-x: auto;
   /* scroll-behavior: smooth; */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
   height: 110px;
   object-fit: cover;
 }
